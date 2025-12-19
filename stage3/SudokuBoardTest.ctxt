@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SudokuBoardTest
+comment0.text=\n\ Test\ class\ containing\ tests\ of\ the\ SudokuBoard\ class.\n\n\ @author\ \ Nazareno\ Aguirre\n\ @version\ 0.1\n
+comment1.params=
+comment1.target=void\ testCreateBoard()
+comment1.text=\n\ Test\ whether\ we\ can\ create\ a\ board\n
+comment2.params=
+comment2.target=void\ testSetCellValue()
+comment2.text=\n\ Test\ whether\ we\ can\ set\ values\ for\ a\ non-fixed\ cell\n
+comment3.params=
+comment3.target=void\ testValidValueInCell()
+comment3.text=\n\ Test\ validValueInCell\n
+comment4.params=
+comment4.target=void\ testIsCellFixed()
+comment4.text=\n\ Test\ isCellFixed\ method\n
+comment5.params=
+comment5.target=void\ testSolvableBoard()
+comment5.text=\n\ Tests\ that\ the\ board\:\n\ 034678912\n\ 672195348\n\ 198042567\n\ 859761423\n\ 426853791\n\ 713924856\n\ 961537204\n\ 280419635\n\ 345286079\n\ is\ solvable.\ \n
+comment6.params=
+comment6.target=void\ testUnsolvableBoard()
+comment6.text=\n\ Tests\ that\ the\ board\:\n\ 034678912\n\ 672195348\n\ 198042567\n\ 859761423\n\ 426853791\n\ 713924856\n\ 961537204\n\ 280419635\n\ 345286079\n\ becomes\ unsolvable\ if\ we\ set\ coordinate\ (8,\ 6)\ with\ 9\ (repeated\ value\ in\ row).\n
+numComments=7

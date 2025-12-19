@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SudokuCell
+comment0.text=\n\ This\ class\ represents\ a\ single\ cell\ in\ a\ Sudoku\ puzzle.\n
+comment1.params=value\ isFixed
+comment1.target=SudokuCell(int,\ boolean)
+comment1.text=\n\ Constructor\ of\ the\ SudokuCell\ class.\n\ @param\ value\ the\ value\ of\ the\ cell\ (0\ if\ empty)\n\ @param\ isFixed\ true\ if\ the\ cell\ is\ fixed,\ false\ otherwise\n\ Precondition\:\ value\ is\ between\ 0\ and\ 9\ inclusive\n\ Precondition\:\ if\ isFixed\ is\ true,\ value\ must\ be\ between\ 1\ and\ 9\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\n\ Returns\ the\ value\ of\ the\ cell.\n\ @return\ the\ value\ of\ the\ cell\n
+comment3.params=value
+comment3.target=void\ setValue(int)
+comment3.text=\n\ Sets\ the\ value\ of\ the\ cell.\n\ @param\ value\ the\ new\ value\ of\ the\ cell\n\ Precondition\:\ the\ cell\ is\ not\ fixed\n
+comment4.params=
+comment4.target=void\ makeFixed()
+comment4.text=\n\ Marks\ the\ cell\ as\ fixed.\n\ Precondition\:\ the\ cell\ is\ not\ already\ fixed\n\ Precondition\:\ the\ cell\ has\ a\ non-zero\ value\n
+comment5.params=
+comment5.target=void\ makeUnfixed()
+comment5.text=\n\ Marks\ the\ cell\ as\ unfixed.\n\ Precondition\:\ the\ cell\ is\ currently\ fixed\n
+comment6.params=
+comment6.target=boolean\ isFixed()
+comment6.text=\n\ Returns\ whether\ the\ cell\ is\ fixed.\n\ @return\ true\ if\ the\ cell\ is\ fixed,\ false\ otherwise\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Returns\ a\ string\ representation\ of\ the\ cell.\n\ @return\ string\ representation\ of\ the\ cell\n
+numComments=8

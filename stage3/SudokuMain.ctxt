@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SudokuMain
+comment0.text=\n\ Main\ class\ of\ the\ Sudoku\ game.\n\ This\ is\ a\ command\ line\ version\ of\ the\ game.\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ method\ to\ start\ the\ Sudoku\ game.\n\ @param\ args\ command\ line\ arguments\ (not\ used)\n
+comment2.params=
+comment2.target=SudokuMain()
+comment2.text=\n\ Starts\ the\ Sudoku\ game\ by\ randomly\ choosing\ a\ puzzle\ to\ solve.\n
+comment3.params=
+comment3.target=void\ loadPuzzles()
+comment3.text=\n\ Loads\ predefined\ puzzles\ into\ the\ puzzles\ list.\n
+comment4.params=
+comment4.target=java.lang.String\ selectPuzzle()
+comment4.text=\n\ Selects\ a\ random\ puzzle\ from\ the\ puzzles\ list.\n\ @return\ the\ file\ path\ of\ the\ selected\ puzzle\n
+comment5.params=
+comment5.target=void\ play()
+comment5.text=\n\ Main\ game\ loop\ that\ handles\ user\ input\ and\ game\ progression.\n
+numComments=6

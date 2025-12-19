@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SudokuBoardTest
+comment0.text=\n\ Test\ class\ containing\ tests\ of\ the\ SudokuBoard\ class.\n\n\ @author\ \ Nazareno\ Aguirre\n\ @version\ 0.1\n
+comment1.params=
+comment1.target=void\ testCreateBoard()
+comment1.text=\n\ Test\ whether\ we\ can\ create\ a\ board\n
+comment2.params=
+comment2.target=void\ testSetCellValue()
+comment2.text=\n\ Test\ whether\ we\ can\ set\ values\ for\ a\ cell\n
+comment3.params=
+comment3.target=void\ testContainsInRow()
+comment3.text=\n\ Test\ containsInRow\ method\n
+comment4.params=
+comment4.target=void\ testContainsInColumn()
+comment4.text=\n\ Test\ containsInColumn\ method\n
+comment5.params=
+comment5.target=void\ testContainsInBox()
+comment5.text=\n\ Test\ containsInBox\ method\n
+comment6.params=
+comment6.target=void\ testIsValidOption()
+comment6.text=\n\ Test\ isValidOption\ method\n
+comment7.params=
+comment7.target=void\ testIsCellFixed()
+comment7.text=\n\ Test\ isCellFixed\ method\n
+numComments=8
